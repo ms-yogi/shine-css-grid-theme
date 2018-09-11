@@ -1,0 +1,20 @@
+{
+  "name": "shine-css-grid-theme",
+  "version": "1.0.0",
+  "description": "http://yoginibende.me/",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoginib/shine-css-grid-theme.git"
+  },
+  "keywords": ["CSS-template", "CSS-grid"],
+  "author": "Yogini Bende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoginib/shine-css-grid-theme/issues"
+  },
+  "homepage": "https://github.com/yoginib/shine-css-grid-theme#readme"
+}
