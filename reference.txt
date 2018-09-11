@@ -1,3 +1,5 @@
+This file contains all css-grid properties in short.
+
 #for parent element
 --- display: grid;
     grid-template-columns: 20% 30% 50%; //will set number of columns and their proportion
