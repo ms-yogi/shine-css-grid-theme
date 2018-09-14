@@ -12,15 +12,17 @@ To get the theme working, just clone the project and edit all text as per your n
 
 This project uses SCSS and CSS-grid
 
-## Version- v1.0
+## Version- v1.1
 
-This is initial version of the theme. 
+This version have made this single page theme mobile compatible.
 
-Basic UI animations and mobile compatibility will be released in next version
+If you see any issues with any mobile compatibility please mention it.
+
+Work in Progress for basic UI animations and some javascript.
 
 ## Authors
 
-* **Yogini Bende** - *For v1.0* - [ms-yogi](https://github.com/ms-yogi)
+* **Yogini Bende** - [ms-yogi](https://github.com/ms-yogi)
 
 Project is open for contribution.
 
