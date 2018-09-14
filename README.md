@@ -37,5 +37,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Demo
 
-For demo [click here](http://yoginibende.me/).
+For demo [click here](http://yoginibende.me/shine-theme/).
 
