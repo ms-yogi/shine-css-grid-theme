@@ -1,3 +1,5 @@
+
+
 # Shine Theme
 
 Shine is a one-page website theme developed using css-grid
