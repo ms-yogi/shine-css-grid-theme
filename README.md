@@ -16,20 +16,17 @@ This project uses SCSS an CSS-grid
 
 This is initial version of the theme. 
 
-```
 Basic UI animations and mobile compatibility will be released in next version
-
-```
 
 ## Authors
 
-* **Yogini Bende** - *Initial work* - [ms-yogi](https://github.com/ms-yogi)
+* **Yogini Bende** - *For v1.0* - [ms-yogi](https://github.com/ms-yogi)
 
 Project is open for contribution.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE File](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
@@ -38,6 +35,7 @@ This project is licensed under the MIT License - see the [LICENSE File](LICENSE)
 * Power of CSS and CSS-grid
 
 
-#For demo click on the link below: 
+## Demo
 
-http://yoginibende.me/
+For demo [click here](http://yoginibende.me/).
+
