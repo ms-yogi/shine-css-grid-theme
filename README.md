@@ -10,7 +10,7 @@ To get the theme working, just clone the project and edit all text as per your n
 
 ### Prerequisites
 
-This project uses SCSS an CSS-grid
+This project uses SCSS and CSS-grid
 
 ## Version- v1.0
 
