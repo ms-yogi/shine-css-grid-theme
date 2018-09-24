@@ -519,6 +519,9 @@ h2 {
     grid-row: 1;
     height: 20rem;
   }
+  .form-field input[type='text'] {
+    width: auto !important;
+  }
 }
 
 @media screen and (max-width: 330px) {
@@ -552,10 +555,7 @@ h2 {
   border-width: 1px;
   margin: 0 10px;
   font-family: 'Nunito', sans-serif;
-}
-
-.form-field input[type='text'] {
-  width: 350px;
+  width: auto;
 }
 
 .form-field input[type='email']:focus, .form-field input[type='text']:focus {

@@ -1,3 +1,6 @@
+console.log("modal.js");
+
+
 var modalStickyFooter = new tingle.modal({
     footer: true,
     stickyFooter: true

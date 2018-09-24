@@ -7,11 +7,12 @@
             border-width: 1px;
             margin: 0 10px;
             font-family: 'Nunito', sans-serif;
+            width: auto;
         }
 
-        input[type='text'] {
-            width: 350px;
-        }
+        // input[type='text'] {
+        //     width: 350px;
+        // }
         
         input[type='email']:focus, input[type='text']:focus {
             outline: #FFA000 auto 5px;
