@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/yoginib/shine-css-grid-theme.git"
   },
-  "keywords": ["CSS-template", "CSS-grid"],
+  "keywords": [
+    "CSS-template",
+    "CSS-grid"
+  ],
   "author": "Yogini Bende",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yoginib/shine-css-grid-theme/issues"
   },
-  "homepage": "https://github.com/yoginib/shine-css-grid-theme#readme"
+  "homepage": "https://github.com/yoginib/shine-css-grid-theme#readme",
+  "dependencies": {
+    "tingle.js": "^0.13.2"
+  }
 }

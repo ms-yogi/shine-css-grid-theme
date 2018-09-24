@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Shine is a one page theme suitable for all kind of websites. This theme is developed in CSS-grid and is completely responsive.">
+
+    <base href="http://yoginibende.me/shine-theme/assets">
+
+    <link rel="canonical" href="http://yoginibende.me/">
 
     <!-- Google Font- Nunito -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800" rel="stylesheet">
@@ -13,14 +18,19 @@
     <link rel="stylesheet" href="http://cdn.mapfit.com/v2-4/assets/css/mapfit.css">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
+    <!-- tingle.js css -->
+    <link rel="stylesheet" href="assets/stylesheets/tingle.css">
+
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="assets/stylesheets/styles.css">
-    <title>Shine: A CSS Grid Theme</title>
+
+    <title>Shine: A CSS Grid Theme (One Page Theme)</title>
 </head>
 
 <body>
@@ -30,29 +40,36 @@
         </div>
         <div class="nav">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
+                <li onclick="smoothScroll('about')"><button>About</button></li>
+                <li onclick="smoothScroll('work')"><button>Work</button></li>
+                <li onclick="smoothScroll('contact')"><button>Contact</button></li>
             </ul>
         </div>
 
         <div class="hero">
             <h1>WE MAKE YOUR SPACES<span>Beautiful!</span></h1>
-            <button>Want to Talk?</button>
+            <button class="js-tingle-modal-1">Want to Talk?</button>
         </div>
     </div>
 
     <div class="about">
         <h2>About Us</h2>
         <hr>
-        <p>Beautiful design and soulful places is our business and our passion. As they say, a house becomes a home when
-            it’s personalised. Your space should show off your tastes and personality, work with your lifestyle, and may
-            be make your guests a little jealous. We know that creating a home interior that does all of these things isn’t
-            easy. But we have already accepted that challenge. We fill the warmth of love into your home to make it look
+        <p>Beautiful design and soulful places is our business and our passion. As they say, a house becomes a home
+            when
+            it’s personalised. Your space should show off your tastes and personality, work with your lifestyle, and
+            may
+            be make your guests a little jealous. We know that creating a home interior that does all of these things
+            isn’t
+            easy. But we have already accepted that challenge. We fill the warmth of love into your home to make it
+            look
             more lively.</p>
-        <p> To achieve this, we provide sustainable design solutions. We do detailed study considering furniture layout,
-            electrical layout, style, colour, furniture, natural light, windows and design elements. Our focus is to pay
-            full attention to detail and we totally live upto this Mantra. Creating personality for spaces which suits your
+        <p> To achieve this, we provide sustainable design solutions. We do detailed study considering furniture
+            layout,
+            electrical layout, style, colour, furniture, natural light, windows and design elements. Our focus is to
+            pay
+            full attention to detail and we totally live upto this Mantra. Creating personality for spaces which suits
+            your
             personal choices. We maintain the synergy between the classism and modernization in the design.</p>
         <p>Let's make our places more beautiful!!</p>
     </div>
@@ -81,15 +98,16 @@
 
                 <address>
                     <h3>Shine, A Design Studio</h3>
-                        146 , Test address, R R M Rd, Opp.PPHKV Hospital, MGM Plots
-                        <br>
-                        Pune, Maharashtra, India - 400004
+                    146 , Test address, R R M Rd, Opp.PPHKV Hospital, MGM Plots
+                    <br>
+                    Pune, Maharashtra, India - 400004
                 </address>
 
                 <div class="quick-links">
-                    <p><i class="far fa-envelope"></i> hello@shine.com</p><p>
-                    <i class="fas fa-mobile-alt"></i>
-                    020-200200</p>
+                    <p><i class="far fa-envelope"></i> hello@shine.com</p>
+                    <p>
+                        <i class="fas fa-mobile-alt"></i>
+                        020-200200</p>
 
                     <hr>
 
@@ -108,37 +126,27 @@
         </div>
     </div>
 
+    <div class="hidden">
+        <div class="modal-form">
+            <span class="form-field">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <i class="far fa-envelope icon"></i>
+            </span>
+
+            <span class="form-field">
+                <input type="text" name="message" id="message" placeholder="Enter your message">
+                <i class="far fa-edit icon"></i>
+            </span>
+        </div>
+    </div>
 
     <!-- Mapfit Javascript -->
     <script src="http://cdn.mapfit.com/v2-4/assets/js/mapfit.js"></script>
-    <script>
-        // add api key
-        mapfit.apikey = "591dccc4e499ca0001a4c6a410a76c6008914659ad32a7c5b186af43";
+    <script src="assets/js/custom-mapfit.js"></script>
 
-        // draw map
-        let map = mapfit.MapView('mapfit', { theme: 'day' });
-
-        //set zoom
-        map.setZoom(12);
-
-        // set map center with coordinate
-        map.setCenter([18.52, 73.85]);
-
-        //set map center with layer
-        map.setCenterWithLayer(myPolygon, 0, 0);
-
-        // create marker
-        myMarker = mapfit.Marker();
-
-        // geocode marker address
-        myMarker.address = "[18.52, 73.85]";
-
-        // set center using marker position
-        map.addMarker(myMarker).then(function () {
-            map.setCenter(myMarker.getPosition());
-        });
-
-    </script>
+    <!-- tingle.js javascript -->
+    <script src="assets/js/tingle.min.js"></script>
+    <script type="text/javascript" src="assets/js/modal.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
-
 </html>

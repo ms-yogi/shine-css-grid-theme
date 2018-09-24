@@ -78,13 +78,16 @@ h2 {
   margin: 0 10px;
 }
 
-.nav ul a {
-  text-decoration: none;
+.nav ul button {
+  background: transparent;
   color: #888;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  border: 0;
+  cursor: pointer;
+  outline: none;
 }
 
-.nav ul a:hover {
+.nav ul button:hover {
   color: #333;
 }
 
@@ -538,4 +541,41 @@ h2 {
             transform: translateX(-45%);
   }
 }
-/*# sourceMappingURL=styles.css.map */
+
+.form-field {
+  position: relative;
+}
+
+.form-field input[type='email'], .form-field input[type='text'] {
+  padding: 10px 10px 10px 40px;
+  border-radius: 3px;
+  border-width: 1px;
+  margin: 0 10px;
+  font-family: 'Nunito', sans-serif;
+  width: auto;
+}
+
+.form-field input[type='email']:focus, .form-field input[type='text']:focus {
+  outline: #FFA000 auto 5px;
+}
+
+.form-field .icon {
+  position: absolute;
+  left: 20px;
+  top: 2px;
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.tickmark {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #FFA000;
+  border: 3px solid #FFA000;
+  margin: 0 20px;
+  border-radius: 50%;
+}

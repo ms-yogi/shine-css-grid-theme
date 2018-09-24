@@ -30,12 +30,14 @@ Project is open for contribution.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## Acknowledgments
+## Credits
 
-* Mapfit for maps
-* unsplash.com for all beautiful images
 * Power of CSS and CSS-grid
-
+* [Nunito Font](https://fonts.google.com/specimen/Nunito) from Google Fonts
+* [FontAwesome](https://fontawesome.com/) for all icons
+* [Mapfit](https://www.mapfit.com/) for maps 
+* [Unsplash](https://unsplash.com/) for all beautiful images
+* [tingle.js](https://robinparisi.github.io/tingle/) for modal
 
 ## Demo
 
