@@ -552,7 +552,6 @@ h2 {
   border-width: 1px;
   margin: 0 10px;
   font-family: 'Nunito', sans-serif;
-  width: auto;
 }
 
 .form-field input[type='email']:focus, .form-field input[type='text']:focus {

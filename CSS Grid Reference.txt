@@ -1,0 +1,44 @@
+This file contains all css-grid properties in short.
+
+#for parent element
+--- display: grid;
+    grid-template-columns: 20% 30% 50%; //will set number of columns and their proportion
+    grid-template-columns: 2fr 3fr 5fr;
+    grid-template-columns: repeat(9, 1fr);
+
+
+    grid-auto-rows: 200px; //will set height of row
+    grid-auto-rows: minmax(300px, auto); //will set min height of 200px for rows and max height auto for the row
+    grid-template-rows: 200px 300px 500px; //will set height for 3 rows
+    grid-template-rows: repeat(3fr, minmax(300px, 600px)); 
+
+    grid-gap: 10px; //will set the gap of 10px in all rows and columns
+    grid-column-gap: 10px; //will set the gap between all columns
+    grid-row-gap: 10px; //will set the gap between all rows
+
+    align-items: start | end | strech //will align its children vertically
+    justify-items: start | end |strech //will align its children horizontally
+
+    grid-template-areas : 
+    "define names of areas per column as you want"
+    "name of second rows and so on"
+
+#for child element
+--- grid lines are always (number of columns + 1) or (number of rows + 1)
+    grid-column-start: 3 //element's position will start from column number 3
+    grid-column-end: 5; //element's position will end at column number 5
+    grid-column: 3/5; //shorthand
+    grid-column: span 3; // from the default position of column, that column will be expanded(span) upto 3 columns
+
+    grid-row-start: 3 //element's position will start from row number 3
+    grid-row-end: 5; //element's position will end at row number 5
+    grid-row: 3/5; //shorthand
+
+    align-self: start | end | center //will align itself vertically
+    justify-self: start | end | center //will align itself horizontally
+
+    grid-area: name of grid without quotes
+
+#for nesting of grid, give child class display:grid and arrange all columns and rows accordingly
+
+#for responsive layouts, put different grids into media queries. Use grid-template-area property
