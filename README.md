@@ -12,13 +12,11 @@ To get the theme working, just clone the project and edit all text as per your n
 
 This project uses SCSS and CSS-grid
 
-## Version- v1.1
+## Version- v1.0
 
 This version have made this single page theme mobile compatible.
 
 If you see any issues with any mobile compatibility please mention it.
-
-Work in Progress for basic UI animations and some javascript.
 
 ## Authors
 
